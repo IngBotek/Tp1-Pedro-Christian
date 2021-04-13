@@ -1,0 +1,15 @@
+-- Table: public.temperatura
+
+-- DROP TABLE public.temperatura;
+
+CREATE TABLE public.temperatura
+(
+    id bigint NOT NULL,
+    valor double precision NOT NULL,
+    CONSTRAINT "Temperatura_pkey" PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.temperatura
+    OWNER to christian;
