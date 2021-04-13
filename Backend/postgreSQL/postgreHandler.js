@@ -3,10 +3,10 @@ const { Pool } = require('pg');
 var format = require('pg-format');
  
 const pool = new Pool({
-  user: 'christian',
-  host: 'localhost',
-  database: "nodePractica_db",
-  password: "jazmin36105059",
+  user: '',
+  host: '',
+  database: "",
+  password: "",
   port: 5432,
 });
 
